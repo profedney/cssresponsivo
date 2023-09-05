@@ -1,0 +1,19 @@
+/*Este aqui impede que figuras objetos e videos  ultrapassem os limites da tela*/
+img, embed, object, video{
+    max-width: 100%;
+}
+
+/*impedir que elementos clicaveis fiquem muito pequenos*/
+nav a, button {
+    min-width: 48px;
+    min-height: 48px;
+}
+
+/*media query para dispositivos até 500px*/
+
+@media screen and (max-width:500px) {
+    body{
+        background-color: rgb(15, 15, 15);
+        color: rgb(219, 219, 219);
+    }
+}
